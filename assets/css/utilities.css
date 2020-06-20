@@ -1,0 +1,209 @@
+/*Utilities CSS comunes*/
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+/*Size mat-form-field*/
+
+.mat-form-field {
+  font-size: 16 px !important;
+  display: unset !important;
+}
+
+/*Color texto mat-card*/
+
+.color-text-mat-card {
+  color: #0091ea;
+}
+
+.color-fondo-blanco {
+  color: #fff !important;
+}
+
+/*Paddings*/
+
+.padding-0p {
+  padding: 0% !important;
+}
+
+.padding-2p {
+  padding: 2%;
+}
+
+.padding-3p {
+  padding: 3%;
+}
+
+.padding-05p {
+  padding: 0.5%;
+}
+
+.padding-05p-top {
+  padding-top: 0.5%;
+}
+
+.padding-1p-top {
+  padding-top: 10%;
+}
+
+.padding-05p-bottom {
+  padding-bottom: 0.5%;
+}
+
+.padding-1p-bottom {
+  padding-bottom: 1%;
+}
+
+.padding-15p-bottom {
+  padding-bottom: 15%;
+}
+
+.padding-5p-bottom {
+  padding-bottom: 5%;
+}
+
+.padding-05p-left {
+  padding-left: 0.5%;
+}
+
+.padding-1p-left {
+  padding-left: 1%;
+}
+
+.padding-3p-left {
+  padding-left: 3%;
+}
+
+.padding-05p-right {
+  padding-right: 0.5%;
+}
+
+.padding-1p-right {
+  padding-right: 1%;
+}
+
+.padding-3p-right {
+  padding-right: 3%;
+}
+
+/*Margin*/
+.margin-3p-top {
+  margin-top: 3%;
+}
+
+.margin-4p-bottom {
+  margin-bottom: 4% !important;
+}
+
+/*Row*/
+.row {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/*Column*/
+
+.colum {
+  flex-direction: column;
+}
+
+/*Height*/
+
+
+/*Width*/
+
+.width-45p {
+  width: 45%;
+}
+
+.width-50p {
+  width: 50%;
+}
+
+.width-100p {
+  width: 100% ;
+}
+
+.max-width-95p {
+  max-width: 95% !important;
+}
+
+.max-width-100p {
+  max-width: 100% !important;
+}
+
+/*Display*/
+
+.display-flex {
+  display: flex;
+}
+
+/*Formulario*/
+
+.mat-form-field-appearance-fill .mat-form-field-flex {
+  border-radius: 4px 4px 0 0;
+  padding-bottom: 0% !important;
+  padding-top: 0% !important;
+  padding-left: 0.5% !important;
+  padding-right: 0.5% !important;
+}
+
+.mat-form-field {
+  font-size: 16 px !important;
+  display: unset !important;
+}
+
+.font-size-11px {
+  font-size: 11px;
+}
+.mat-select{
+  line-height: 500%;
+}
+
+.mat-error{
+  font-size: 10px;
+}
+
+.mat-form-field-infix {
+  padding: 0% !important;
+}
+
+/*Background*/
+
+.light-grey {
+  background-color: #fafafa;
+}
+
+.bg-water {
+  background-color: #38759b !important
+}
+
+.bg-water-trans:hover {
+  background-color: #b7d2ec40 !important
+}
+
+/*Border*/
+.border-0p {
+  border: 0px solid !important ;
+}
+
+/*Bottom*/
+.bottom-40p {
+  bottom: 40% !important;
+}
+
+.imageCarousel {
+  background-size: cover;
+  position: relative;
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  height: 100%;
+}
